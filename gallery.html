@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Gallery Page</title>
+    <style>
+   body {
+        margin: 0 auto; /* Center the entire page */
+        font-family: 'Bahnschrift', sans-serif;
+        background-color: #000;
+        color: #fff;
+        text-align: center; /* Center the text */
+    }
+    
+    header {
+        background-color: #000;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    header2 img {
+            max-width: 300px; /* Set the max width for the logo */
+            height: auto;
+        }
+
+    .logo img {
+        max-width: 300px; /* Adjust the max width of the logo */
+        margin-bottom: 20px; /* Add margin below the logo */
+    }
+
+    
+    .navigation-tab {
+        margin-top: 10px;
+        text-align: center; /* Center the text within the navigation bar */
+    }
+
+    .navigation-tab a {
+        color: #ff6a00;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 0 10px;
+        padding: 10px 20px;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: #555;
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 900px; /* Adjust based on your design */
+        margin: 0 auto;
+    }
+
+    .gallery-image {
+        flex-basis: calc(33.33% - 10px); /* Adjust the width and margin based on your design */
+        margin-bottom: 20px;
+    }
+
+    .gallery-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px; /* Add a border radius for rounded corners */
+    }
+
+    #footer {
+        background-color: #ff6a00;
+        color: #000;
+        padding: 10px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="logo" src="gallery.jpg" alt="Logo"> <!-- Add the actual file path for your logo -->
+        </div>
+    </header>
+
+    <nav>
+        <div class="navigation-tab">
+            <a href="index.html">Home</a>
+            <a href="covers.html">Covers</a>
+        </div>
+    </nav>
+
+    <p>
+        Explore a collection of captivating images showcasing Dashboy's journey and experiences. 
+    </p>
+
+    <br><br><br>
+
+    <section class="gallery">
+        <div class="gallery-image">
+            <img src="dash.jpg" alt="Dashboy Image 1">
+        </div>
+        <div class="gallery-image">
+            <img src="dash1.jpg" alt="Dashboy Image 2">
+        </div>
+        <div class="gallery-image">
+            <img src="dash2.jpg" alt="Dashboy Image 3">
+        </div>
+        <div class="gallery-image">
+            <img src="dash3.jpg" alt="Dashboy Image 4">
+        </div>
+        <div class="gallery-image">
+            <img src="dash4.jpg" alt="Dashboy Image 5">
+        </div>
+        <div class="gallery-image">
+            <img src="dash6.jpg" alt="Dashboy Image 6">
+        </div>
+        <div class="gallery-image">
+            <img src="dash 7.jpg" alt="Dashboy Image 7">
+        </div>
+        <div class="gallery-image">
+            <img src="dash8.jpg" alt="Dashboy Image 8">
+        </div>
+        <div class="gallery-image">
+            <img src="dash9.jpg" alt="Dashboy Image 9">
+        </div>
+        <!-- Add more images as needed -->
+    </section>
+    
+    <div id="footer">
+        <p>&copy;2023 NeentotheWorld Records. All rights reserved.</p>
+        <p>Bookings @ dashboytheplugofficial@gmail.com</p>
+        <header2>
+            <img src="the plug.jpg" alt="Logo">
+        </header2>
+    </div>
+    
+</body>
+</html>

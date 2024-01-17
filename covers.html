@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <style>
+        body {
+            font-family: Bahnschrift, sans-serif;
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            background-color: black;
+            padding: 20px;
+        }
+
+        header2 img {
+            max-width: 300px; /* Set the max width for the logo */
+            height: auto;
+        }
+
+        .logo {
+            width: 300%;
+            max-width: 300px;
+            margin-bottom: 20px;
+            margin-top: 30px;
+        }
+
+        .navigation-tab {
+            margin-top: 10px;
+        }
+
+        .navigation-tab a {
+            color: #ff6a00;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 10px;
+            padding: 10px 20px;
+        }
+
+        #content {
+            padding: 20px;
+        }
+
+        #album-covers,
+        #song-covers {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around; /* Adjust as needed */
+            margin-bottom: 20px;
+        }
+
+        .cover {
+            position: relative;
+            width: 30%; /* Set the width to 30% for three images in a row */
+            margin: 10px; /* Adjust margin as needed */
+            overflow: hidden;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .cover img {
+            width: 50%; /* Make the image fill the container */
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .cover:hover img {
+            transform: scale(1.03);
+        }
+        
+        .album-name {
+            color: #fff;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 5px;
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        .gradient-line {
+            height: 4px; /* Set the height of your line */
+            background: linear-gradient(to right, #ff6a00, #ff6a00); /* Set the gradient colors */
+            width: fill; /* Make it span the entire width of its container */
+        }
+
+        #footer {
+            background-color: #ff6a00;
+            color: #000000;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <img class="logo" src="cover.jpg" alt="Logo">
+    </div>
+
+    <div class="navigation-tab">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+    </div>
+
+    <div id="content">
+        <!-- Your content goes here -->
+        <h1></h1>
+        <p>Explore a collection of captivating covers by Dashboy, each infused with a unique style that showcases the
+            diversity of musical influences.</p>
+
+        <!-- Album Covers Section -->
+        <header2>
+            <img src="albums.jpg" alt="Logo">
+        </header2>
+        <div id="album-covers">
+            <div class="cover">
+                <a href="https://open.spotify.com/album/5qSudbI1hgducrzJAdZZFD?si=fwYlrRK5QRCX4c3kCjVxtw">
+                    <img src="cover1.jpg" alt="Album 1 Cover">
+                </a>
+                <p class="album-name">Values & Standards</p>
+            </div>
+
+            <div class="cover">
+                <a href="https://open.spotify.com/album/1Sh6BzJWWprLuDZd0PdIL6?si=-MxmJxmzTq2ocHnDtwwiVg">
+                    <img src="cover3.jpg" alt="Album 2 Cover">
+                </a>
+                <p class="album-name">Magayisa</p>
+            </div>
+
+            <div class="cover">
+                <a href="https://youtu.be/H96lN7MIP7s?si=vG5t2NEG24YsKc4-">
+                    <img src="cover4.jpg" alt="Album 3 Cover">
+                </a>
+                <p class="album-name">The Star Was Born</p>
+            </div>
+
+            <div class="cover">
+                <a href="https://on.soundcloud.com/SShZA2iQp7sSXgYF8">
+                    <img src="cover5.jpg" alt="Album 1 Cover">
+                </a>
+                <p class="album-name">Pick A Side</p>
+            </div>
+
+            <div class="cover">
+                <a href="https://open.spotify.com/album/3LNLS0pcC28aMRnapzyNX5?si=dWlX-heFQCi6eHm23V5jdw">
+                    <img src="cover8.jpg" alt="Album 2 Cover">
+                </a>
+                <p class="album-name">P.U.R.E</p>
+            </div>
+
+            <div class="cover">
+                <a href="https://soundcloud.com/user-285372455/sets/the-star-was-born-mixtape?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+                    <img src="cover10.png" alt="Album 2 Cover">
+                </a>
+                <p class="album-name">Trail Run</p>
+            </div>
+            <!-- Add more album covers as needed -->
+        </div>
+
+        <br><br><br><br>
+        <div class="gradient-line"></div>
+        <br><br><br>
+
+        <!-- Song Covers Section -->
+        <header2>
+            <img src="singles.jpg" alt="Logo">
+        </header2>
+        <div id="song-covers">
+            <div class="cover">
+                <a href="https://open.spotify.com/track/20oAa7KD5I77iGVoEXOJgK?si=D5Y7iUI2SLGi-pxymRM0Jg">
+                    <img src="cover9.jpg" alt="Single 1 Cover">
+                </a>
+                <p class="album-name">Peace Steet</p>
+            </div>
+            <div class="cover">
+                <a href="https://on.soundcloud.com/PHTAoXov2qAv1RD58">
+                    <img src="cover2.jpg" alt="Single 2 Cover">
+                </a>
+                <p class="album-name">SUMMERTIME</p>
+            </div>
+            <div class="cover">
+                <a href="https://on.soundcloud.com/rHUppRpThdZHiTvf6">
+                    <img src="cover6.jpg" alt="Single 3 Cover">
+                </a>
+                <p class="album-name">Diva</p>
+            </div>
+            <div class="cover">
+                <a href="https://on.soundcloud.com/XX1B8mww5QxQXGhx7">
+                    <img src="cover7.jpg" alt="Single 2 Cover">
+                </a>
+                <p class="album-name">Cina</p>
+            </div>
+            
+            <!-- Add more song covers as needed -->
+        </div>
+    </div>
+
+    <br><br><br>
+
+    <div id="footer">
+        <p>&copy;2023 NeentotheWorld Records. All rights reserved.</p>
+        <p>Bookings @ dashboytheplugofficial@gmail.com</p>
+        <header2>
+            <img src="the plug.jpg" alt="Logo">
+        </header2>
+    </div>
+</body>
+
+</html>

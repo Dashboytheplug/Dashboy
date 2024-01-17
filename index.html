@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboy - Rapper/Musician</title>
+    <style>
+        body {
+            font-family: Bahnschrift, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000; /* Black background */
+            color: #fff; /* White text */
+        }
+
+        header {
+            background-color: #000000;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 300px; /* Set the max width for the logo */
+            height: auto;
+        }
+
+        header h1 {
+            margin: 10px 0 0; /* Adjust margin for the heading */
+            color: #fff; /* Set text color for the rapper's name */
+        }
+
+        header2 img {
+            max-width: 300px; /* Set the max width for the logo */
+            height: auto;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #000000; /* Dark grey background for the tabs */
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #ff6a00;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            background-color: #555; /* Darker background on hover */
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #000000; /* Dark grey background */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Center the content in each section */
+        }
+
+
+        h1, h2 {
+            color: #fff;
+        }
+
+        
+
+        p {
+            line-height: 1.6;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .platform-logos {
+            text-align: center; /* Center-align the logos */
+            margin-top: 20px; /* Add space above the logos */
+        }
+
+        .platform-logos img {
+            max-width: 100px; /* Adjust the size of the logos */
+            display: inline-block; /* Make logos inline */
+            margin-right: 40px; /* Add space between logos */
+        }
+
+        footer {
+            background-color: #ff6a00;
+            color: #000000;
+            text-align: center; /* Center the content in the footer */
+            padding: 0.4em;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+      
+        
+        .covers-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            overflow-x: auto; /* Add horizontal scrolling for smaller screens */
+            margin: 20px 0;
+        }
+
+        .cover {
+            flex: 0 0 auto;
+            width: 200px; /* Set a specific width for each cover */
+            height: 200px; /* Set a specific height for each cover */
+            margin-right: 10px; /* Add some margin between covers */
+            overflow: hidden;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .cover img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .cover a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+        }
+        .gallery-section {
+            max-width: 800px;
+            margin: 20px auto;
+            overflow: hidden;
+        }
+
+        .gallery-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .gallery-image {
+            flex: 0 0 calc(33.33% - 20px);
+            overflow: hidden;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .gallery-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        .gallery-image:hover img {
+            transform: scale(1.1);
+        }
+        .gradient-line {
+            height: 4px; /* Set the height of your line */
+            background: linear-gradient(to right, #ff6a00, #ff6a00); /* Set the gradient colors */
+            width: fill; /* Make it span the entire width of its container */
+        }
+
+            /* Optional: Add some padding or margin to adjust the positioning */
+            body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .video-section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #000000; /* Dark grey background */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .video-section h2 {
+            color: #fff;
+        }
+
+    </style>
+    
+</head>
+<body>
+
+    <header>
+        <!-- Replace "logo.jpg" with the actual file path for your logo -->
+        <img src="logo.jpg" alt="Logo">
+        <h1></h1> <!-- Add the rapper's name here -->
+        <!-- Add any additional header content or styling as needed -->
+    </header>
+
+    <nav>
+        <a href="covers.html">Covers</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <section>
+        
+        <header2>
+            <!-- Replace "logo.jpg" with the actual file path for your logo -->
+            <img src="ke mang.jpg" alt="Logo">
+            <h1></h1> <!-- Add the rapper's name here -->
+            <!-- Add any additional header content or styling as needed -->
+        </header2>
+
+        <p>
+            <!--Welcome to my official website! I'm Dashboy, a passionate rapper/musician with a unique style that blends various genres. 
+            I bring a different type of sound into the game, infusing hip hop trap, Lofi with with Xitsonga(my home languages)-->
+            Dashboy, an extraordinary rapper and musician, is a force to be reckoned with in the music industry. With a distinctive style that seamlessly fuses hip hop, trap, Lofi, and his native Xitsonga language, he brings a fresh and invigorating sound to the game.</p>
+
+        <p>    Born and raised in a small village in South Africa, Dashboy grew up immersed in the rich and vibrant culture of his homeland. The influence of his Xitsonga heritage is unmistakable in his music, as he effortlessly infuses traditional elements into his innovative sound. This unique blend not only sets him apart from his peers but also captivates listeners from all walks of life.</p>
+            
+        <p>            With a burning passion for music, Dashboy honed his skills from a young age, earning him a reputation as a prodigious talent within the local music scene. Drawing inspiration from a myriad of genres, he seamlessly weaves together intricate melodies, infectious beats, and thought-provoking lyrics to create his own sonic masterpiece.</p>
+            
+        <p>            Dashboy's lyrics reflect a depth and introspection that are rare in today's music landscape. With raw and honest storytelling, he delves into personal experiences, touching on themes of love, pain, triumph, and the myriad of emotions that make us human. His authenticity resonates with his growing fanbase, as they find solace and inspiration in his music.</p>
+            
+        <p>           As an artist, Dashboy is not confined by boundaries or limitations. Constantly pushing the envelope, he fearlessly experiments with different sounds and genres, effortlessly blending them together to create something entirely his own. His innate ability to seamlessly transition between genres allows him to cater to a diverse range of listeners, ensuring that his music transcends cultural barriers.</p>
+            
+        <p>            Dashboy's rise to prominence has been meteoric, with his infectious music catching the attention of industry insiders and fans worldwide. His performances exude energy and charisma, leaving audiences in awe of his skill and stage presence. Collaborating with top-notch producers and fellow artists, he continuously strives to elevate his craft, ensuring that each release is even better than the last.</p>
+            
+        <p>            Beyond his music, Dashboy is a humanitarian at heart. He uses his platform to champion various social causes, fighting for equality, justice, and the empowerment of marginalized communities. His dedication to making a difference in the world is not only evident in his lyrics but also in his philanthropic endeavors.</p>
+            
+        <p>           Dashboy's impact on the music world knows no bounds. He is a true pioneer, breaking down barriers and defying conventions. With his unparalleled talent, unique style, and unrelenting drive, he is poised to become a trailblazer in the industry and leave an indelible mark on the music scene.</p>
+            
+        <p>            In a world filled with cookie-cutter artists, Dashboy stands out as a breath of fresh air. His ability to seamlessly blend genres, infusing his native Xitsonga language into his music, sets him apart from the pack. So, brace yourself for an electrifying musical journey as Dashboy takes the industry by storm, captivating audiences with his unparalleled talent and captivating sound.</p>
+
+        <div class="gradient-line"></div>
+
+        <header2>
+            <img src="platforms.jpg" alt="Logo">
+        </header2>
+
+        <p>
+            Check out my latest tracks on:
+           <!-- <br>
+            <a href="https://open.spotify.com/artist/your-artist-id" target="_blank">Spotify</a>,
+            <a href="https://music.apple.com/your-artist-id" target="_blank">Apple Music</a>,
+            <a href="https://www.youtube.com/user/your-channel-id" target="_blank">YouTube</a>
+             -->
+        </p>
+
+        <!-- Platform logos linking to your pages -->
+        <div class="platform-logos">
+            <a href="https://open.spotify.com/artist/0LqZ6rdd9zJNVfmA5v54HM?si=cJJ2lYj4T9SK9IjnfRJShg" target="_blank">
+                <img src="spotify.png" alt="Spotify Logo">
+            </a>
+            <a href="https://music.apple.com/us/artist/dashboytheplug/1647171616" target="_blank">
+                <img src="apple.png" alt="Apple Music Logo">
+            </a>
+            <a href="http://www.youtube.com/@dashboytheplugTV" target="_blank">
+                <img src="youtube.jpg" alt="YouTube Logo">
+            </a>
+        </div>
+
+        <h2></h2>
+    </section>
+
+    <section class="covers-section">
+        
+        <header2>
+            <img src="latest project.jpg" alt="Logo">
+        </header2>
+
+        <div class="covers-container">
+            <!-- Include your covers from covers.html -->
+            <div class="cover">
+                <a href="https://youtu.be/H96lN7MIP7s?si=vG5t2NEG24YsKc4-">
+                    <img src="cover4.jpg" alt="Cover 1">
+                </a>
+            </div>
+            <!-- Add more covers as needed -->
+        </div>
+    </section>
+
+   
+    <section class="video-section">
+        <header2>
+            <img src="PI.jpg" alt="Logo">
+        </header2>
+
+        <p>Check out my new Podcast Interview with Jay Jabulani Kubayi Rap Type Magazine CEO</p>
+       
+        <br><br><br>
+
+        <video width="560" height="315" controls>
+            <source src="interview 1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>   
+        
+
+    <!-- Add additional sections for events, photos, etc. -->
+    <section class="curved-section">
+        <div class="content">
+            <div class="gradient-line"></div>
+            <h2></h2>
+            <p>Bookings @ dashboytheplugofficial@gmail.com</p>
+
+            <p>Industry Quality Beats available from R300</p>
+                
+            <p>Mix and Mastering Services Available from R500</p>
+            <div class="gradient-line"></div>
+
+            </p>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <h2></h2>
+
+        <div class="gallery-container">
+            <div class="gallery-image" >
+                <img src="dash.jpg" alt="Image 1">
+            </div>
+            <div class="gallery-image" >
+                <img src="dash1.jpg" alt="Image 2">
+            </div>
+            <div class="gallery-image" >
+                <img src="dash2.jpg" alt="Image 3">
+            </div>
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+   
+    <footer>
+        <p>&copy; 2023 NeentotheWorld Records. All rights reserved.</p>
+        <p>Bookings @ dashboytheplugofficial@gmail.com</p>
+        <header2>
+            <img src="the plug.jpg" alt="Logo">
+        </header2>
+    </footer>
+</body>
+</html>
